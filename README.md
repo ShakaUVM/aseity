@@ -6,7 +6,7 @@ Aseity is a simple tool that will render full color (24-bit) images inside any t
 Compilation instructions:
 1) Install CImg if you don't have it already via: ``sudo apt-get install cimg-dev`` (if you use Ubuntu) or by following the installation steps here: http://www.cimg.eu/
 2) Clone this repository into a new directory
-3) cd into the new directory and type: ``make``. This will build an executable in the directory named "aseity". Note: this requires you have a version of g++ installed that supports the C++17 standard, as is uses structured bindings.
+3) cd into the new directory and type: ``make``. This will build an executable in the directory named "aseity". Note: this requires you have a version of g++ installed that supports the C++17 standard.
 
 How to run the code:
 ``./aseity filename`` (for example, "./aseity kyoto.jpg")
