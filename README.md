@@ -20,6 +20,6 @@ Here is a rendering of a Monet artwork from entirely within a text-based termina
 
 This album shows the original artwork and what the art looks like when rasterized at different resolutions: https://imgur.com/a/lAd6unY
 
-The header file in this project, colors.h, can be used in any C++ project that you'd like to add colors to. If you want colored text, once you include it you can do something like this: ``cout << RED << "Hello " << BLUE << "World!\n" << RESET;`` to output Hello in red, World in blue, and then resetting the colors back to default after this.
+**The header file in this project, colors.h, can be used in any C++ project that you'd like to add colors to.** If you want colored text, once you include it you can do something like this: ``cout << RED << "Hello " << BLUE << "World!\n" << RESET;`` to output Hello in red, World in blue, and then resetting the colors back to default after this.
 
 colors.h also functions as a very simple NCURSES-esque library that lets you get the current terminal size, move the cursor to an arbitrary row and column, and change the foreground/background color to any 24-bit value. Basically everything I typically use NCURSES for but without the overhead.
